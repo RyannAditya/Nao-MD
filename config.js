@@ -45,56 +45,56 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['6281387307198', 'Ryzn', true]
+['62822522851432', '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '6285864034767'
-global.nomorown = '6281387307198'
-global.nomorown1 = '6281387307198'
-global.nomorown2 = '6281387307198'
+global.nomorbot = '62823504965325'
+global.nomorown = '62822522851432'
+global.nomorown1 = '62822522851432'
+global.nomorown2 = '62822522851432'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Ryzn'
-global.namebot = '​ NaoBotz'
-global.wm = '© NaoBotz By Ryzn'
-global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
-global.wm = 'Ryzn '
+global.author = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣'
+global.namebot = '​𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯'
+global.wm = '© 𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯 By 𝙍𝙮𝙖𝙣'
+global.media = 'https://telegra.ph/file/c4aea52f75207211af381.png'
+global.wm = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣 '
 global.watermark = wm
-global.wm2 = 'Ryzn '
+global.wm2 = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `NaoBotz`
-global.stickpack = 'NaoBotz'
-global.stickauth = `© Ryzn`
+global.titlebot = `𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯`
+global.stickpack = '© 2021-2023'
+global.stickauth = `𝙍𝙮𝙖𝙣𝙕𝙭-𝙈𝙙\n⫹⫺ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝘽𝙊𝙏\nwa.me/62823504965325\n⫹⫺𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙊𝙬𝙣𝙚𝙧\nwa.me/62822522851432\n\n𝙅𝙖𝙣𝙜𝙖𝙣 𝙡𝙪𝙥𝙖 𝙨𝙖𝙫𝙚 𝙮𝙖 𝙗𝙖𝙣𝙝`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'Ryzn'
-global.nameown2 = 'Ryzn'
+global.nameown1= '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣'
+global.nameown2 = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.Linkgc = 'Bentar'
-global.lynk = 'https://lynk.id/hyuuraofc'
+global.Linkgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
+global.lynk = 'https://lynk.id/ryann.dev'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = 'https://www.instagram.com/ryzen_vermillion'
-global.sgh = 'https://github.com/ShirokamiRyzen' //github
-global.sgc = '-' //group whatsapp
+global.sig = '-'
+global.sgh = 'https://github.com/RyannAditya' //github
+global.sgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://www.youtube.com/channel/UC5z1Xp6vQGU038B1RbMC3Gg'
+global.snh = '-'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '0813 8730 7198'
-global.povo = '-'
-global.pgopay = '0813 8730 7198'
+global.pdana = '0823 5049 6232'
+global.povo = '0823 5049 6232'
+global.pgopay = '0822 5228 5143'
 global.plinkaja = '-' //link aja
-global.ppulsa = '0813 8730 7198'
-global.ppulsa2 = '0813 8730 7198'
+global.ppulsa = '0823 5049 6232'
+global.ppulsa2 = '0822 5228 5143'
 global.psaweria = '-'
 
 
@@ -138,7 +138,7 @@ global.dikit = "Dikit Lagi, Semangat!!"
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RPG GAME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.multiplier = 69 // The higher, The harder levelup
+global.multiplier = 49 // The higher, The harder levelup
 global.rpg = {
   emoticon(string) {
     string = string.toLowerCase()
@@ -304,16 +304,16 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 
 global.dtu = 'INSTAGRAM'
-global.urlnya = "https://www.instagram.com/ryzen_vermillion"
+global.urlnya = "-"
 global.dtc = 'CALL OWNER'
-global.phn = '0813 8730 7198'
+global.phn = '0822 5228 5143'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.fsizedoc = '99999999999999'
 global.fpagedoc = '999'
-global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
+global.thumbdoc = 'https://telegra.ph/file/c4aea52f75207211af381.png'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
