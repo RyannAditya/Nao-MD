@@ -36,9 +36,9 @@ import fetch from 'node-fetch'
 */
 const defaultMenu = {
 before: ` `.trimStart(),
-header: '----------- *%category* ',
-body: `┆➨ %cmd %isPremium %islimit`,
-footer: `-----------\n`,
+header: '┏━━━━━⫹⫺ *%category* ',
+body: `┃⏣ %cmd %isPremium %islimit`,
+footer: `┗━━━━━⫹⫺\n`,
 after: ` `,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
@@ -225,74 +225,74 @@ let mpt = clockString(_mpt)
 const sections = [{
 title: `${htki} MAIN ${htka}`,
 rows: [
-{title: `⚡ ${emot} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
-{title: `💌 ${emot} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
+{title: `╿⚡╿ SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
+{title: `╿💌╿ OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
 ]
 },{
 title: `${htki} SUPPORT ${htka}`,
 rows: [
-{title: `🔖 ${emot} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-{title: `🌟 ${emot} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
-{title: `💹 ${emot} DONASI`, rowId: ".owner kontak", description: 'Support BOT agar lebih fast respon'},
+{title: `╿🔖╿ SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+{title: `╿🌟╿ BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
+{title: `╿💹╿ DONASI`, rowId: ".owner kontak", description: 'Support BOT agar lebih fast respon'},
 ]
 },{
 title: `${htki} MENU ${htka}`,
 rows: [
-{title: `${emot} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-{title: `${emot} Ai`, rowId: ".? ai", description: "All AI features"},
-{title: `${emot} Stress`, rowId: ".? Stress", description: "Kali aja kamu halu"},
-{title: `${emot} Menfess`, rowId: ".? menfess", description: "Mengirim pesan secara anonim"},
-{title: `${emot} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-{title: `${emot} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-{title: `${emot} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
-{title: `${emot} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-{title: `${emot} Text Pro`, rowId: ".? textpro", description: "Buat text dari logo"},
-{title: `${emot} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-{title: `${emot} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-{title: `${emot} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-{title: `${emot} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
-{title: `${emot} Premium`, rowId: ".? premium", description: "Only premium Users"},
-{title: `${emot} Stalk`, rowId: ".? stalk", description: "Kepoin akun seseorang"},
-{title: `${emot} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-{title: `${emot} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-{title: `${emot} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
-{title: `${emot} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
-{title: `${emot} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-{title: `${emot} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-{title: `${emot} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-{title: `${emot} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
-{title: `${emot} Group`, rowId: ".? group", description: "Only Groups"},
-{title: `${emot} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-{title: `${emot} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-{title: `${emot} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
-{title: `${emot} Info`, rowId: ".? info", description: "Info info BOT"},
-{title: `${emot} Owner`, rowId: ".? owner", description: "Owner Only!"},
-{title: `\n${emot} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+{title: `╿🗂╿ All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
+{title: `╿🖥╿ Ai`, rowId: ".? ai", description: "All AI features"},
+{title: `╿👻╿ Stress`, rowId: ".? Stress", description: "Kali aja kamu halu"},
+{title: `╿💝╿ Menfess`, rowId: ".? menfess", description: "Mengirim pesan secara anonim"},
+{title: `╿🎋╿ Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
+{title: `╿🏵️╿ Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
+{title: `╿🎮╿ Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
+{title: `╿🎲╿ Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
+{title: `╿✒️╿ Text Pro`, rowId: ".? textpro", description: "Buat text dari logo"},
+{title: `╿🐚╿ Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
+{title: `╿📜╿ Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
+{title: `╿🐤╿ Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
+{title: `╿🔞╿ Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
+{title: `╿🧧╿ Premium`, rowId: ".? premium", description: "Only premium Users"},
+{title: `╿🔍╿ Stalk`, rowId: ".? stalk", description: "Kepoin akun seseorang"},
+{title: `╿☪️╿ Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
+{title: `╿🌐╿ Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
+{title: `╿🗞️╿ Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
+{title: `╿📥╿ Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
+{title: `╿🎐╿ Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
+{title: `╿📝╿ Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
+{title: `╿🎼╿ Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+{title: `╿🎧╿ Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
+{title: `╿👥╿ Group`, rowId: ".? group", description: "Only Groups"},
+{title: `╿💫╿ Admin`, rowId: ".? admin", description: "Only Admin Group"},
+{title: `╿🗂️╿ Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
+{title: `╿🛠️╿ Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+{title: `╿📄╿ Info`, rowId: ".? info", description: "Info info BOT"},
+{title: `╿👨🏻‍💻╿ Owner`, rowId: ".? owner", description: "Owner Only!"},
+{title: `\n No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
 ] },
 ]
 let psan = 'bagaimana kabarmu?'
 let usrs = db.data.users[m.sender]
 let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg'), thumbnail: fs.readFileSync('./thumbnail.jpg'),sendEphemeral: true}}}
 let tek = `*${ucapan()} @${m.sender.split`@`[0]}*
-☰⃟⃟ᭁ═━┈━┈༓
-┯┩${psan}
-┡────────────┈ ⳹
-┠━☰⃟⃟ᭁ「 *U s e rI n f o 克* 」
-┋↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-║↬✗• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-╏↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-╎↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-╅╌┉┈┈╳
-╭╼╼╼╼╼╼╼╼╺╴╴╳
-┊ 「 *S t a t u sI n f o 比* 」
-┊⧠ *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-┊⧠ *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')}:${moment.tz('Asia/Jakarta').format('mm')} WIB
-┊⧠ *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-┊⧠ *ʟɪᴍɪᴛ:* ${usrs.limit}
-┊⧠ *ʟᴇᴠᴇʟ:* ${usrs.level}
-┊⧠ *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-┗––––––––––––––––––✥
-┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
+╔═══════❏ 
+╠════ *Info User*
+╠〆 *Nama:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+╠〆 *Tag:* @${m.sender.split`@`[0]}
+╠〆 *Premium:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+╠〆 *Status:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+╚═════════════════════❏
+
+╔═══════❏ 
+╠════ *Status Info*
+╠〆 *Uptime:* ${mpt}
+╠〆 *Time:* ${moment.tz('Asia/Jakarta').format('HH')}:${moment.tz('Asia/Jakarta').format('mm')} WIB
+╠〆 *Users:* ${Object.keys(global.db.data.users).length}
+╠〆 *Limit:* ${usrs.limit}
+╠〆 *Level:* ${usrs.level}
+╠〆 *Role:* ${usrs.role}${usrs.premiumTime > 1 ? `
+╚═════════════════════❏
+
+*Expired Premium:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
@@ -515,7 +515,7 @@ handler.command = /^(mangkane25|mangkane26|mangkane27|mangkane28|mangkane29|mang
            thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()*/
 
 //------------------ DOCUMENT
-const _0xcdd4a4=_0x4f24;(function(_0x2bcefa,_0x4d88ce){const _0x5c4dba=_0x4f24,_0x205702=_0x2bcefa();while(!![]){try{const _0x33e7d8=-parseInt(_0x5c4dba(0x19c))/0x1+parseInt(_0x5c4dba(0x1a4))/0x2+-parseInt(_0x5c4dba(0x196))/0x3*(parseInt(_0x5c4dba(0x190))/0x4)+parseInt(_0x5c4dba(0x19e))/0x5+parseInt(_0x5c4dba(0x1a1))/0x6+-parseInt(_0x5c4dba(0x18f))/0x7+-parseInt(_0x5c4dba(0x18e))/0x8*(-parseInt(_0x5c4dba(0x19a))/0x9);if(_0x33e7d8===_0x4d88ce)break;else _0x205702['push'](_0x205702['shift']());}catch(_0xf8bf85){_0x205702['push'](_0x205702['shift']());}}}(_0x428b,0x217e1));function _0x4f24(_0xa43523,_0x129aaa){const _0x428b53=_0x428b();return _0x4f24=function(_0x4f24c5,_0x1efd25){_0x4f24c5=_0x4f24c5-0x188;let _0x40aa2e=_0x428b53[_0x4f24c5];return _0x40aa2e;},_0x4f24(_0xa43523,_0x129aaa);}let almenu=_0xcdd4a4(0x1a9)+global['namebot']+_0xcdd4a4(0x1ab)+mode+_0xcdd4a4(0x1aa)+platform+'\x0a┇┃\x20➯\x20*Tʏᴘᴇ:*\x20Node.Js\x0a┃║\x20➯\x20*Bᴀɪʟᴇʏs:*\x20Multi\x20Device\x0a┇┃\x20➯\x20*Pʀᴇғɪx:*\x20[\x20*'+_p+_0xcdd4a4(0x19f)+muptime+'\x0a┇┃\x20➯\x20*Dᴀᴛᴀʙᴀsᴇ:*\x20'+rtotalreg+_0xcdd4a4(0x1ad)+totalreg+_0xcdd4a4(0x18b)+name+_0xcdd4a4(0x19d)+tag+_0xcdd4a4(0x1a6)+prems+_0xcdd4a4(0x18c)+money+_0xcdd4a4(0x193)+limit+_0xcdd4a4(0x188)+level+_0xcdd4a4(0x1ae)+exp+_0xcdd4a4(0x1a5)+role+_0xcdd4a4(0x192)+readMore,nomorwa='0',nomorowm1=_0xcdd4a4(0x18d),d1=_0xcdd4a4(0x197),d2='application/vnd.openxmlformats-officedocument.wordprocessingml.document',d3='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',d4=_0xcdd4a4(0x199),d5=_0xcdd4a4(0x1a7),td=''+pickRandom([d1,d2,d3,d4,d5]),ᴛᴇs='Pᴏᴡᴇʀ\x20Bʏ\x20⬝\x20@'+nomorwa[_0xcdd4a4(0x1a8)]`@`[0x0]+_0xcdd4a4(0x189)+nomorown1[_0xcdd4a4(0x1a8)]`@`[0x0]+_0xcdd4a4(0x1a2)+week+'\x20'+date+_0xcdd4a4(0x1a3)+wktuwib,thummb=fs[_0xcdd4a4(0x18a)](_0xcdd4a4(0x195)),menuunya=_0xcdd4a4(0x194);function _0x428b(){const _0xbcaee4=['Oᴡɴᴇʀ','\x0a└──┈┈⟢\x0a','\x0a┆𝙻𝚒𝚖𝚒𝚝\x20:\x20','halo','./media/dash.jpg','90183FRcCVL','application/vnd.openxmlformats-officedocument.presentationml.presentation','\x0aKᴀᴋᴇᴋ\x20Gᴡ\x20Sᴜɢɪᴏɴᴏ','application/pdf','315lplKwu','.owner','213337iqdLzF','\x0a┆Tᴀɢ\x20:\x20','700670GwRSVE','*\x20]\x0a┃║\x20➯\x20*Uᴘᴛɪᴍᴇ:*\x20','huuu','1041330sEhSga','\x0a⫹⫺\x20DATE:\x20','\x0a⫹⫺\x20𝗧𝗶𝗺𝗲:\x20','33032nQbsHg','\x0a┆𝚁𝚘𝚕𝚎\x20\x20\x20:\x20','\x0a┆Sᴛᴀᴛᴜs\x20:\x20','text/rtf','split','⃟☰⃟⃟ᭁ═━┈༓\x20❲\x20*Iɴғᴏ\x20Bᴏᴛ*\x20❳\x0a┃╔━─⟢⟨\x20','\x0a┃║\x20➯\x20*Pʟᴀᴛғᴏʀᴍ:*\x20','\x20⟩⟣\x0a┇┃\x20➯\x20*Oᴡɴᴇʀ:*\x20Shirokami\x20Ryzn\x0a┃║\x20➯\x20*Pʀᴏᴊᴇᴄᴛ:*\x2022\x20Aɢᴜsᴛᴜs\x202022\x0a┇┃\x20➯\x20*Mᴏᴅᴇ:*\x20','send3ButtonLoc','\x20dari\x20','\x0a┆𝙴𝚡𝚙\x20\x20\x20:\x20','\x0a┆𝙻𝚎𝚟𝚎𝚕\x20:\x20','\x0aCʀᴇᴀᴛᴏʀ\x20Bᴏᴛ\x20⬝\x20@','readFileSync','\x0a┃❏\x0a┗┳━━◩\x0a┍┛\x0a┆➯📝Script\x20:\x20https://github.com/ShirokamiRyzen/Nao-MD\x0a└─┈⟅\x0a┍━─┈❏➢\x20*Pʀᴏғɪʟᴇ*\x0a┆𝙽𝚊𝚖𝚎\x20:\x20','\x0a┆Mᴏɴᴇʏ\x20:\x20','6281387307198','12272ASXMpa','23184uOucBR','4hHdPhr'];_0x428b=function(){return _0xbcaee4;};return _0x428b();}conn[_0xcdd4a4(0x1ac)](m['chat'],thummb,almenu,readMore+text+(''+ᴛᴇs)+readMore,'SᴇᴡᴀBᴏᴛ','.sewa',_0xcdd4a4(0x191),_0xcdd4a4(0x19b),_0xcdd4a4(0x198),_0xcdd4a4(0x1a0),m);
+const _0xcdd4a4=_0x4f24;(function(_0x2bcefa,_0x4d88ce){const _0x5c4dba=_0x4f24,_0x205702=_0x2bcefa();while(!![]){try{const _0x33e7d8=-parseInt(_0x5c4dba(0x19c))/0x1+parseInt(_0x5c4dba(0x1a4))/0x2+-parseInt(_0x5c4dba(0x196))/0x3*(parseInt(_0x5c4dba(0x190))/0x4)+parseInt(_0x5c4dba(0x19e))/0x5+parseInt(_0x5c4dba(0x1a1))/0x6+-parseInt(_0x5c4dba(0x18f))/0x7+-parseInt(_0x5c4dba(0x18e))/0x8*(-parseInt(_0x5c4dba(0x19a))/0x9);if(_0x33e7d8===_0x4d88ce)break;else _0x205702['push'](_0x205702['shift']());}catch(_0xf8bf85){_0x205702['push'](_0x205702['shift']());}}}(_0x428b,0x217e1));function _0x4f24(_0xa43523,_0x129aaa){const _0x428b53=_0x428b();return _0x4f24=function(_0x4f24c5,_0x1efd25){_0x4f24c5=_0x4f24c5-0x188;let _0x40aa2e=_0x428b53[_0x4f24c5];return _0x40aa2e;},_0x4f24(_0xa43523,_0x129aaa);}let almenu=_0xcdd4a4(0x1a9)+global['namebot']+_0xcdd4a4(0x1ab)+mode+_0xcdd4a4(0x1aa)+platform+'\x0a╠\x20〆\x20*Type:*\x20Node.Js\x0a╠\x20〆\x20*Baileys:*\x20Multi\x20Device\x0a╠\x20〆\x20*Prefix:*\x20[\x20*'+_p+_0xcdd4a4(0x19f)+muptime+'\x0a╠\x20〆\x20*Database:*\x20'+rtotalreg+_0xcdd4a4(0x1ad)+totalreg+_0xcdd4a4(0x18b)+name+_0xcdd4a4(0x19d)+tag+_0xcdd4a4(0x1a6)+prems+_0xcdd4a4(0x18c)+money+_0xcdd4a4(0x193)+limit+_0xcdd4a4(0x188)+level+_0xcdd4a4(0x1ae)+exp+_0xcdd4a4(0x1a5)+role+_0xcdd4a4(0x192)+readMore,nomorwa='0',nomorowm1=_0xcdd4a4(0x18d),d1=_0xcdd4a4(0x197),d2='application/vnd.openxmlformats-officedocument.wordprocessingml.document',d3='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',d4=_0xcdd4a4(0x199),d5=_0xcdd4a4(0x1a7),td=''+pickRandom([d1,d2,d3,d4,d5]),ᴛᴇs='Powered\x20By\x20⬝\x20@'+nomorwa[_0xcdd4a4(0x1a8)]`@`[0x0]+_0xcdd4a4(0x189)+nomorown1[_0xcdd4a4(0x1a8)]`@`[0x0]+_0xcdd4a4(0x1a2)+week+'\x20'+date+_0xcdd4a4(0x1a3)+wktuwib,thummb=fs[_0xcdd4a4(0x18a)](_0xcdd4a4(0x195)),menuunya=_0xcdd4a4(0x194);function _0x428b(){const _0xbcaee4=['Owner','\x0a╚══════❏\x0a','\x0a╠〆Limit\x20:\x20','halo','./media/dash.jpg','90183FRcCVL','application/vnd.openxmlformats-officedocument.presentationml.presentation','\x0aKakek\x20Gᴡ\x20Sugiono','application/pdf','315lplKwu','.owner','213337iqdLzF','\x0a╠〆 Tag\x20:\x20','700670GwRSVE','*\x20]\x0a╠\x20〆\x20*Uptime:*\x20','huuu','1041330sEhSga','\x0a⫹⫺\x20Date:\x20','\x0a⫹⫺\x20Time:\x20','33032nQbsHg','\x0a╠〆 Role\x20\x20\x20:\x20','\x0a╠〆 Status\x20:\x20','text/rtf','split','╔═══════❏ \x20❲\x20*Info\x20Bot*\x20❳\x0a╠━─〆⟨\x20','\x0a╠\x20〆\x20*Platfrom:*\x20','\x20⟩〆\x0a╠\x20〆\x20*Owner:*\x20RyanZx\x20Botz\x0a╠\x20〆\x20*Project:*\x2022\x20Agustus\x202022\x0a╠\x20〆\x20*Mode:*\x20','send3ButtonLoc','\x20dari\x20','\x0a╠〆 Exp\x20\x20\x20:\x20','\x0a╠〆 Level\x20:\x20','\x0aCreator\x20Bot\x20⬝\x20@','readFileSync','\x0a╠〆\x0a╠━━◩\x0a〆\x0a╠〆📝Script\x20:\x20https://github.com/RyannAditya/Nao-MD\x0a╠〆\x0a╔═════❏\x20*Profile*\x0a┆Name\x20:\x20','\x0a┆Money\x20:\x20','62822522851432','12272ASXMpa','23184uOucBR','4hHdPhr'];_0x428b=function(){return _0xbcaee4;};return _0x428b();}conn[_0xcdd4a4(0x1ac)](m['chat'],thummb,almenu,readMore+text+(''+ᴛᴇs)+readMore,'SewaBot','.sewa',_0xcdd4a4(0x191),_0xcdd4a4(0x19b),_0xcdd4a4(0x198),_0xcdd4a4(0x1a0),m);
 
 //------------------- BUTTON VID
 /*conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnszQtwz0', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})*/

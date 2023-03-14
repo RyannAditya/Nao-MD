@@ -99,7 +99,7 @@ let name = conn.getName(m.sender)
 }
 } })*/
 let nowaa = '0'
-let nogww = '6281387307198'
+let nogww = '62822522851432'
 let nogwww = `@${nomorown1.split`@`[0]}`
 let nowa = `${nowaa.split`@`[0]}@s.whatsapp.net`
 let nogw = `${nogww.split`@`[0]}@s.whatsapp.net`
@@ -114,14 +114,14 @@ let knnt = `
 *『 ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ 』* 
 
 ⁛ BOT(BUILD-OPERATE-TRANSFER) adalah program komputer yang dijalankan di Whatsapp yang khusus dibuat untuk melakukan pekerjaan-pekerjaan otomatis, BOT Whatsapp dirancang sedemikian rupa sehingga dapat digunakan dengan nyaman, dan kemungkinan memiliki sedikit bug, Adanya fitur dari bot WhatsApp ini tentu akan membantu anda untuk bersenang senang, dll`
-let ᴛᴇs = `Pᴏᴡᴇʀ Bʏ ⬝ @${nomorwa.split`@`[0]}\nCʀᴇᴀᴛᴏʀ Bᴏᴛ ⬝ @${nomorown1.split`@`[0]}\n⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+let ᴛᴇs = `Powered By ⬝ @${nomorwa.split`@`[0]}\nCreator Bot ⬝ @${nomorown1.split`@`[0]}\n⫹⫺ Date: ${week} ${date}\n⫹⫺ Time: ${wktuwib}`
 
 //kalo botnya delay karena server kentang, ubah aja conn ini pake yang atas
 conn.send2ButtonImg(m.chat, await genProfile(conn, m), konten, ᴛᴇs, but1, id1, but2, id2, m, { contextInfo: { externalAdReply: { showAdAttribution: true,
 
 //conn.send2ButtonImg(m.chat, fs.readFileSync('./media/own.jpg').buffer, konten, ᴛᴇs, but1, id1, but2, id2, m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     description: sgc,
-    title: "Hᴀʟᴏ Jᴀɴɢᴀɴ Lᴜᴘᴀ Bᴇʀsʏᴜᴋᴜʀ!!",
+    title: "Halo Jangan Lupa Bersyukur!!",
     body: kata,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc

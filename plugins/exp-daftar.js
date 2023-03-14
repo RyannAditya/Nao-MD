@@ -50,7 +50,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\nCreate by Ryzn`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\nCreate by Ryann`,
   title: "▢━━━━「 Registration 」━━━━▢",
   buttonText: " Register ",
   sections
@@ -74,11 +74,11 @@ const listMessage = {
   let cap = `
   ━━━━ 「 *Successful Registration* 」━━━
   .
-╭━━「 *ᴜsᴇʀs* 」
-│▸ *sᴛᴀᴛᴜs:* ☑️ sᴜᴄᴄᴇssғᴜʟ
-│▸ *ɴᴀᴍᴇ:* ${name}
-│▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
-│▸ *sɴ:* ${sn}
+╭━━「 *User* 」
+│▸ *Status:* ☑️ sᴜᴄᴄᴇssғᴜʟ
+│▸ *Nama:* ${name}
+│▸ *Umur:* ${age} ʏᴇᴀʀs
+│▸ *Serial Num.:* ${sn}
 ╰═┅═━––––––
 `
   let buttonMessage= {

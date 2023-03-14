@@ -11,7 +11,7 @@ let handler = function (m) {
  }
  conn.sendMessage(m.chat, { delete: key })
 }
-handler.help = ['delete']
+handler.help = ['delete', 'del']
 handler.tags = ['info']
 handler.command = /^(del|delete|unsend?)$/i
 handler.limit = false
