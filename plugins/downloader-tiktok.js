@@ -3,7 +3,7 @@ import axios from 'axios'
 import cheerio from 'cheerio'
 
 var handler = async (m, { conn, args}) => {
-  if (!args[0]) throw 'Uhm...url nya mana?'
+  if (!args[0]) throw 'Masukkan Link'
     const { thumbnail, video, audio } = await tiktokdl(args[0])
     const url = video
     if (!url) throw 'Can\'t download video!'

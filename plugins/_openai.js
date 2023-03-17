@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from "openai";
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (!text) throw `Contoh:\n${usedPrefix + command} Apa itu OpenAI`
 const configuration = new Configuration({
-    apiKey: "" //api key bisa didapatkan dari https://openai.com/api/
+    apiKey: "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" //api key bisa didapatkan dari https://openai.com/api/
 });
 const openai = new OpenAIApi(configuration);
         const response = await openai.createCompletion({

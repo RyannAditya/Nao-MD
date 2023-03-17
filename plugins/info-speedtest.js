@@ -14,7 +14,7 @@ let handler = async (m) => {
         if (stderr.trim()) m.reply(stderr)
     }
 }
-handler.help = ['testspeed']
+handler.help = ['testspeed', 'speedtest']
 handler.tags = ['info']
 handler.command = /^(testspeed)$/i
 

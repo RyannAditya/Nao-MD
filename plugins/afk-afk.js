@@ -10,7 +10,7 @@ let thumb = await(await fetch(wibu)).buffer()
 user.afk = + new Date
 user.afkReason = text
  conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} Sedang AFK Dengan Alasan ⬋`, `⬕ ${text ? ': ' + text : ''}` , 'Jangan Ganggu Ya', 'huuuuu', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
-        title: 'Simple Bot Ryzn',
+        title: 'Simple Bot ZeEx',
         body: wm,
         thumbnail: thumb,
         sourceUrl: sgc

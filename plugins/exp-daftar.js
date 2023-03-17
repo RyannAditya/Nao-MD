@@ -49,8 +49,8 @@ let handler = async function (m, { text, usedPrefix, command }) {
 ]
 
 const listMessage = {
-  text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\nCreate by Ryann`,
+  text: `│›Silahkan Pilih Umur kamu pada button list dibawah...`,
+  footer: `┗ *Ur Name:* ${conn.getName(m.sender)}\nCreate by 𝙕𝙚𝙀𝙭-𝘽𝙤𝙩𝙯`,
   title: "▢━━━━「 Registration 」━━━━▢",
   buttonText: " Register ",
   sections
@@ -72,7 +72,7 @@ const listMessage = {
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   let cap = `
-  ━━━━ 「 *Successful Registration* 」━━━
+  ━━━━ 「 *Registrasi Sukses* 」━━━
   .
 ╭━━「 *User* 」
 │▸ *Status:* ☑️ sᴜᴄᴄᴇssғᴜʟ

@@ -75,8 +75,8 @@ description: 'PRICE: ' + ph + 'k (1 minggu)' },
 
 const listMessage = {
   text: info,
-  footer:  `Hᴀʟʟᴏ Wᴇʟᴄᴏᴍᴇ Tᴏ Mʏ Bᴏᴛ Sᴛᴏʀᴇ ${name}\n📆 : ${week} ${weton} ${date}\n⌛: ${wibb}`,
-  title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
+  footer:  `Hallo welcome to mt bot store ${name}\n📆 : ${week} ${weton} ${date}\n⌛: ${wibb}`,
+  title: '⬒ *My List Store* ⬒',
   buttonText: "Click Here!",
   sections
 }
