@@ -45,37 +45,37 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['62822522851432', '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣', true]
+['6282252285143', '𝙕𝙚𝙀𝙭 @𝙍𝙮𝙖𝙣𝙣', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '62823504965325'
-global.nomorown = '62822522851432'
-global.nomorown1 = '62822522851432'
-global.nomorown2 = '62822522851432'
+global.nomorbot = '62823504965327'
+global.nomorown = '6282252285143'
+global.nomorown1 = '62823504965328'
+global.nomorown2 = '62823504965328'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣'
-global.namebot = '​𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯'
-global.wm = '© 𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯 By 𝙍𝙮𝙖𝙣'
-global.media = 'https://telegra.ph/file/c4aea52f75207211af381.png'
-global.wm = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣 '
+global.author = '𝙕𝙚𝙀𝙭 @𝙍𝙮𝙖𝙣𝙣'
+global.namebot = '​𝙕𝙚𝙀𝙭-𝘽𝙤𝙩𝙯'
+global.wm = '© 𝙕𝙚𝙀𝙭-𝘽𝙤𝙩𝙯 By 𝙕𝙚𝙀𝙭 Teams'
+global.media = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg'
+global.wm = '𝙕𝙚𝙀𝙭 @𝙍𝙮𝙖𝙣𝙣
 global.watermark = wm
-global.wm2 = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣 '
+global.wm2 = '𝙕𝙚𝙀𝙭 @𝙁𝙚𝙧𝙙𝙮'
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `𝙍𝙮𝙖𝙣𝙕𝙭-𝘽𝙤𝙩𝙯`
+global.titlebot = `𝙕𝙚𝙀𝙭-𝘽𝙤𝙩𝙯`
 global.stickpack = '© 2021-2023'
-global.stickauth = `𝙍𝙮𝙖𝙣𝙕𝙭-𝙈𝙙\n⫹⫺ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝘽𝙊𝙏\nwa.me/62823504965325\n⫹⫺𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙊𝙬𝙣𝙚𝙧\nwa.me/62822522851432\n\n𝙅𝙖𝙣𝙜𝙖𝙣 𝙡𝙪𝙥𝙖 𝙨𝙖𝙫𝙚 𝙮𝙖 𝙗𝙖𝙣𝙝`
+global.stickauth = `𝙕𝙚𝙀𝙭-𝘽𝙤𝙩𝙯\n⫹⫺ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝘽𝙊𝙏\nwa.me/62823504965325\n⫹⫺𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 𝙊𝙬𝙣𝙚𝙧\nwa.me/62822522851432\n\n𝙅𝙖𝙣𝙜𝙖𝙣 𝙡𝙪𝙥𝙖 𝙨𝙖𝙫𝙚 𝙮𝙖 𝙗𝙖𝙣𝙝`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣'
-global.nameown2 = '𝙄 𝘼𝙢 𝙔𝙖𝙣𝙣'
+global.nameown1= '𝙕𝙚𝙀𝙭 @𝙁𝙚𝙧𝙙𝙮'
+global.nameown2 = '𝙕𝙚𝙀𝙭 @𝙁𝙚𝙧𝙙𝙮'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 global.lynk = 'https://lynk.id/ryann.dev'
@@ -267,15 +267,15 @@ global.drtf = 'text/rtf'
 //OPTIONS
 global.optsnsfw = true // Untuk mematikan Dan Menyalakan Nsfw
 global.premnsfw = true // Nsfw Mode Premium?
-global.thumb = 'https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg'
-global.giflogo = 'https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg'
-global.thumbs = ['https://telegra.ph/file/a7ac2b46f82ef7ea083f9.jpg']
+global.thumb = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg'
+global.giflogo = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg'
+global.thumbs = ['https://telegra.ph/file/33b63025e62b6e103480b.jpg']
 global.thumbnailUrl = [
-  'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg'
+  'https://telegra.ph/file/33b63025e62b6e103480b.jpg'
 ]
-global.fotonya1 = 'https://telegra.ph/file/f6e750a5f247dcb767f81.jpg' //ganti jadi foto bot mu
-global.fotonya2 = 'https://telegra.ph/file/f6e750a5f247dcb767f81.jpg' //ini juga ganti 
+global.fotonya1 = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg' //ini juga ganti 
 global.flaaa2 = [
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=",
  "https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=",
@@ -313,7 +313,7 @@ global.phn = '0822 5228 5143'
 
 global.fsizedoc = '99999999999999'
 global.fpagedoc = '999'
-global.thumbdoc = 'https://telegra.ph/file/c4aea52f75207211af381.png'
+global.thumbdoc = 'https://telegra.ph/file/33b63025e62b6e103480b.jpg'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
