@@ -52,7 +52,7 @@ global.prems = []
 global.nomorbot = '62823504965327'
 global.nomorown = '6282252285143'
 global.nomorown1 = '62823504965328'
-global.nomorown2 = '62823504965328'
+global.nomorown2 = '6285321010580'
 global.nomorwa = '0'
 
 
@@ -75,7 +75,7 @@ global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.nameown1= '𝙕𝙚𝙀𝙭 @𝙁𝙚𝙧𝙙𝙮'
-global.nameown2 = '𝙕𝙚𝙀𝙭 @𝙁𝙚𝙧𝙙𝙮'
+global.nameown2 = 'Rafa'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 global.lynk = 'https://lynk.id/ryann.dev'
